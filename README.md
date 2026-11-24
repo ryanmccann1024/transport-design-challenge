@@ -138,7 +138,7 @@ Start with any row marked FAIL. The summary names the first few problems and tel
 
 ## Read p50, p90, and p99
 
-In the terminal, `Delivered latency` reports these three numbers in milliseconds. Delay is measured from creation to arrival, using only the updates that were delivered.
+In the terminal, `Delivered latency` reports p50, p90, and p99 for **crew updates that arrived**. Each delay is measured in milliseconds from when the crew creates the update to when it reaches the garage. Video upload completion time is reported separately in seconds.
 
 - p50 — at least half of the delivered updates arrived within this time.
 - p90 — at least 90% arrived within this time.
