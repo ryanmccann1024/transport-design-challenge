@@ -1,0 +1,15 @@
+{
+  "theme": "default",
+  "themeVariables": {
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "lineColor": "#42536b",
+    "edgeLabelBackground": "#e9eef5",
+    "clusterBkg": "#f5f7fb",
+    "clusterBorder": "#8798a9"
+  },
+  "flowchart": {
+    "diagramPadding": 18,
+    "nodeSpacing": 34,
+    "rankSpacing": 29
+  }
+}

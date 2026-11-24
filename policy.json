@@ -1,0 +1,6 @@
+{
+  "bulk_rate_bps": 10000000,
+  "bulk_queue_bytes": 180000,
+  "control_first": true,
+  "on_disconnect": "drop"
+}

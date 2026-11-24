@@ -1,0 +1,17 @@
+flowchart TD
+    measure("1 · Run the starter policy<br/>Save its results")
+    choose("2 · Pick one change<br/>What should improve?")
+    rerun("3 · Rerun the same case<br/>Save the new results")
+    compare{"4 · Compare<br/>What did it cost?"}
+    check("Check the idea<br/>on another case")
+    measure --> choose --> rerun --> compare
+    compare -->|"Try another idea"| choose
+    compare -->|"Promising result"| check
+    classDef media fill:#0b3544,stroke:#2da69e,color:#ffffff,stroke-width:2px
+    classDef update fill:#2c2453,stroke:#9479d7,color:#ffffff,stroke-width:2px
+    classDef shared fill:#503519,stroke:#e5a64e,color:#ffffff,stroke-width:2px
+    classDef receiver fill:#153254,stroke:#719cda,color:#ffffff,stroke-width:2px
+    class measure,rerun media
+    class choose update
+    class compare shared
+    class check receiver

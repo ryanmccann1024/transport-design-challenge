@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="334" viewBox="0 0 460 334" role="img" aria-labelledby="title desc">
+  <title id="title">Five separate public cases</title>
+  <desc id="desc">Healthy, busy, and outage each use a 20 MB clip. Medium uses 40 MB and large uses 60 MB.</desc>
+  <rect x="1" y="1" width="458" height="332" rx="14" fill="#f5f8fc" stroke="#cbd7e2"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="20" y="31" fill="#152c45" font-weight="700" font-size="19">Five separate public cases</text>
+    <text x="20" y="50" fill="#435a72" font-size="12">Choose one case per run. Every case starts with a video upload.</text>
+
+    <g fill="#fff" font-size="15">
+      <rect x="20" y="67" width="420" height="45" rx="8" fill="#0b3544" stroke="#278f8e" stroke-width="1.5"/>
+      <text x="34" y="95" font-weight="700">healthy · 20 MB</text>
+      <text x="192" y="95">One camera status update</text>
+
+      <rect x="20" y="118" width="420" height="45" rx="8" fill="#2c2453" stroke="#9479d7" stroke-width="1.5"/>
+      <text x="34" y="146" font-weight="700">busy · 20 MB</text>
+      <text x="192" y="146">Three updates during the upload</text>
+
+      <rect x="20" y="169" width="420" height="45" rx="8" fill="#503519" stroke="#d89641" stroke-width="1.5"/>
+      <text x="34" y="197" font-weight="700">outage · 20 MB</text>
+      <text x="192" y="197">Link down from 2 s to 4 s</text>
+
+      <rect x="20" y="220" width="420" height="45" rx="8" fill="#0b3544" stroke="#278f8e" stroke-width="1.5"/>
+      <text x="34" y="248" font-weight="700">medium · 40 MB</text>
+      <text x="192" y="248">Two updates spaced apart</text>
+
+      <rect x="20" y="271" width="420" height="45" rx="8" fill="#153254" stroke="#719cda" stroke-width="1.5"/>
+      <text x="34" y="299" font-weight="700">large · 60 MB</text>
+      <text x="192" y="299">120 updates in bursts</text>
+    </g>
+  </g>
+</svg>

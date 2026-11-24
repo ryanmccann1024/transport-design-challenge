@@ -1,0 +1,12 @@
+flowchart TD
+    video["Onboard video<br/>20–60 MB"] --> queue("Shared send queue")
+    tag["Event tags + status<br/>200 bytes"] --> queue
+    queue -->|"2 Mb/s wireless link"| garage["Garage review station<br/>Replay + timeline"]
+    classDef media fill:#0b3544,stroke:#2da69e,color:#ffffff,stroke-width:2px
+    classDef update fill:#2c2453,stroke:#9479d7,color:#ffffff,stroke-width:2px
+    classDef shared fill:#503519,stroke:#e5a64e,color:#ffffff,stroke-width:2px
+    classDef receiver fill:#153254,stroke:#719cda,color:#ffffff,stroke-width:2px
+    class video media
+    class tag update
+    class queue shared
+    class garage receiver
